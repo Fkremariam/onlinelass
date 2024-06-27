@@ -1,0 +1,97 @@
+.PasswordText{
+    /* Password */
+    
+        width: 315px;
+        height: 16px;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        /* identical to box height, or 16px */
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        justify-content: space-between;
+        color: #344054;
+        padding-bottom: 10px;
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+}
+/* Email */
+
+.EmailText{
+    width: 378px;
+    height: 16px;
+padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #344054;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;}
+    /* src/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px 30px;
+    background: #fff;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.login-button {
+    width: 100%;
+    color: #fff;
+    background-color: #52c41a;
+    border-color: #52c41a;
+}
+
+.login-button:hover {
+    background-color: #389e0d;
+    border-color: #389e0d;
+}
+
+.forgot-link a{
+    display: block;
+    text-align: right;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: #52c41a;;
+}
+
+.signup-link {
+    margin-top: 16px;
+    
+}
+.signup-link a{
+color: #52c41a;
+}
